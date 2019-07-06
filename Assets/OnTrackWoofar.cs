@@ -14,10 +14,9 @@ public class OnTrackWoofar : MonoBehaviour
 
     void Start()
     {
-        time = 0;
+        time = 0f;
         alpha = 0.01f;
         woofar = GetComponent<SpriteRenderer>();
-        Debug.Log("po");
     }
 
     // Update is called once per frame
@@ -27,7 +26,6 @@ public class OnTrackWoofar : MonoBehaviour
         float dy = Mathf.Sin(2 * Mathf.PI * 0.7f * time) * scale;
         this.transform.position += new Vector3(0,dy,0);
         FadeIn();
-        
     }
 
     void FadeIn()
@@ -40,6 +38,10 @@ public class OnTrackWoofar : MonoBehaviour
         var color = woofar.color;
         color.a = alpha;
         woofar.color = color;
+    }
 
+    void OnDisable()
+    {
+        alpha = 0.01f;
     }
 }

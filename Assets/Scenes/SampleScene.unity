@@ -14393,10 +14393,10 @@ GameObject:
   - component: {fileID: 527333384}
   - component: {fileID: 527333385}
   - component: {fileID: 527333386}
-  - component: {fileID: 527333387}
   - component: {fileID: 527333388}
+  - component: {fileID: 527333387}
   m_Layer: 0
-  m_Name: woofa
+  m_Name: woofar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14456,7 +14456,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bcabef979d4b54017825120bd5aecaf7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -14518,6 +14518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde278d0a4b0b4986980fffd23eda24c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alpha: 0
 --- !u!114 &527333388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14530,6 +14531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d15030041984ab48a672d04a74b4e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onTrackWoofar: {fileID: 0}
 --- !u!1 &612700403
 GameObject:
   m_ObjectHideFlags: 0
@@ -14733,7 +14735,7 @@ MonoBehaviour:
   OffTrackingAction:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 527333388}
+      - m_Target: {fileID: 527333387}
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
