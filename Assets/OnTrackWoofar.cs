@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class OnTrackMove : MonoBehaviour
+public class OnTrackWoofar : MonoBehaviour
 {
     float scale = 0.003f;
     float time;
     float alpha;
     float alphaControlTime = 0.7f;
     float alphaControlCoefficient = 7f;
-    SpriteRenderer image;
+    SpriteRenderer woofar;
 
     void Start()
     {
         time = 0;
         alpha = 0.01f;
-        image = GetComponent<SpriteRenderer>();
+        woofar = GetComponent<SpriteRenderer>();
+        Debug.Log("po");
     }
 
     // Update is called once per frame
@@ -25,7 +26,6 @@ public class OnTrackMove : MonoBehaviour
         time += 0.02f;
         float dy = Mathf.Sin(2 * Mathf.PI * 0.7f * time) * scale;
         this.transform.position += new Vector3(0,dy,0);
-        Debug.Log(time);
         FadeIn();
         
     }
@@ -37,9 +37,9 @@ public class OnTrackMove : MonoBehaviour
         {
             alpha = 1f;
         }
-        var color = image.color;
+        var color = woofar.color;
         color.a = alpha;
-        image.color = color;
+        woofar.color = color;
 
     }
 }
