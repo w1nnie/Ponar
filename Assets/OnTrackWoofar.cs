@@ -22,7 +22,7 @@ public class OnTrackWoofar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        time += 0.02f;
+        time += Time.deltaTime;
         float dy = Mathf.Sin(2 * Mathf.PI * 0.7f * time) * scale;
         this.transform.position += new Vector3(0,dy,0);
         FadeIn();
