@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class OffTrackWoofar : MonoBehaviour
 {
-    public OnTrackWoofar onTrackWoofar;
     SpriteRenderer woofar;
-    // Start is called before the first frame update
+    OnTrackWoofar po;
+
+
+    void Start()
+    {
+        po = GetComponent<OnTrackWoofar>();
+    }
+
     void Update()
     {
+        po.trackOff();
         woofar = GetComponent<SpriteRenderer>();
         var color = woofar.color;
         color.a = 0;

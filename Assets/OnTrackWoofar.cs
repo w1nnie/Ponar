@@ -11,6 +11,11 @@ public class OnTrackWoofar : MonoBehaviour
     float alphaControlTime = 0.7f;
     float alphaControlCoefficient = 7f;
     SpriteRenderer woofar;
+    public ParticleSystem sRight;
+    public ParticleSystem sLeft;
+    public ParticleSystem sBack;
+    public ParticleSystem sFront;
+    public bool onTrack;
 
     void Start()
     {
@@ -22,8 +27,17 @@ public class OnTrackWoofar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!onTrack)
+        {
+            sRight.Play();
+            sLeft.Play();
+            sBack.Play();
+            sFront.Play();
+            onTrack = true;
+        }
+
         time += Time.deltaTime;
-        float dy = Mathf.Sin(2 * Mathf.PI * 0.7f * time) * scale;
+        float dy = Mathf.Sin(2 * Mathf.PI * 0.4f * time) * scale;
         this.transform.position += new Vector3(0,dy,0);
         FadeIn();
     }
@@ -43,5 +57,9 @@ public class OnTrackWoofar : MonoBehaviour
     void OnDisable()
     {
         alpha = 0.01f;
+    }
+
+    public void trackOff(){
+        onTrack = false;
     }
 }
