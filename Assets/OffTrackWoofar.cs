@@ -7,7 +7,6 @@ public class OffTrackWoofar : MonoBehaviour
     SpriteRenderer woofar;
     OnTrackWoofar po;
 
-
     void Start()
     {
         po = GetComponent<OnTrackWoofar>();
