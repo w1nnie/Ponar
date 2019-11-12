@@ -1,0 +1,3391 @@
+fileFormatVersion: 2
+guid: 78478eb41aa7e4aae96df640560ef035
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4773258304404817196
+    second: steria_csl_0
+  - first:
+      213: -6581083503175601877
+    second: steria_csl_1
+  - first:
+      213: -8310805391385243365
+    second: steria_csl_2
+  - first:
+      213: 8290931593405081652
+    second: steria_csl_3
+  - first:
+      213: -9063358903522794074
+    second: steria_csl_4
+  - first:
+      213: 7973102851528398562
+    second: steria_csl_5
+  - first:
+      213: 1888312671781433690
+    second: steria_csl_6
+  - first:
+      213: -4940011166588718427
+    second: steria_csl_7
+  - first:
+      213: 3046992469404090595
+    second: steria_csl_8
+  - first:
+      213: -6282500495134974915
+    second: steria_csl_9
+  - first:
+      213: -1905921714440517351
+    second: steria_csl_10
+  - first:
+      213: 9020453196340689205
+    second: steria_csl_11
+  - first:
+      213: 468060834195182061
+    second: steria_csl_12
+  - first:
+      213: -5845423860894409385
+    second: steria_csl_13
+  - first:
+      213: -4875554197957374594
+    second: steria_csl_14
+  - first:
+      213: -9053023921413894049
+    second: steria_csl_15
+  - first:
+      213: -377045523427991802
+    second: steria_csl_16
+  - first:
+      213: 3447640646285710353
+    second: steria_csl_17
+  - first:
+      213: 5049176365289008580
+    second: steria_csl_18
+  - first:
+      213: 3213047242167398700
+    second: steria_csl_19
+  - first:
+      213: 4973287778845786726
+    second: steria_csl_20
+  - first:
+      213: -7193708736781581815
+    second: steria_csl_21
+  - first:
+      213: -187575751857945387
+    second: steria_csl_22
+  - first:
+      213: 323569563871990685
+    second: steria_csl_23
+  - first:
+      213: 7388369278172662983
+    second: steria_csl_24
+  - first:
+      213: -5746138973040403100
+    second: steria_csl_25
+  - first:
+      213: 199187549179116808
+    second: steria_csl_26
+  - first:
+      213: -474605950826547021
+    second: steria_csl_27
+  - first:
+      213: 1961268922814367900
+    second: steria_csl_28
+  - first:
+      213: 7609629416316744527
+    second: steria_csl_29
+  - first:
+      213: -4488291187234778636
+    second: steria_csl_30
+  - first:
+      213: 150924128005284776
+    second: steria_csl_31
+  - first:
+      213: -3179719656748599027
+    second: steria_csl_32
+  - first:
+      213: 5797893497464789635
+    second: steria_csl_33
+  - first:
+      213: 716423596639631772
+    second: steria_csl_34
+  - first:
+      213: -742260132834316162
+    second: steria_csl_35
+  - first:
+      213: -595420819260009637
+    second: steria_csl_36
+  - first:
+      213: -1871611983406608480
+    second: steria_csl_37
+  - first:
+      213: -3199746332827087993
+    second: steria_csl_38
+  - first:
+      213: 3108582093381835153
+    second: steria_csl_39
+  - first:
+      213: 8961154975277785787
+    second: steria_csl_40
+  - first:
+      213: -8368141003011820213
+    second: steria_csl_41
+  - first:
+      213: 295383643470466165
+    second: steria_csl_42
+  - first:
+      213: 4608373496347672114
+    second: steria_csl_43
+  - first:
+      213: -1363528185138800373
+    second: steria_csl_44
+  - first:
+      213: 8737556721199057926
+    second: steria_csl_45
+  - first:
+      213: -1762232368691624868
+    second: steria_csl_46
+  - first:
+      213: 2856813236611388959
+    second: steria_csl_47
+  - first:
+      213: -4903084546758837498
+    second: steria_csl_48
+  - first:
+      213: 6643241648268853147
+    second: steria_csl_49
+  - first:
+      213: 3201403158681417182
+    second: steria_csl_50
+  - first:
+      213: 6579821895650272881
+    second: steria_csl_51
+  - first:
+      213: -5562126582028108209
+    second: steria_csl_52
+  - first:
+      213: 5457565267709405653
+    second: steria_csl_53
+  - first:
+      213: -4741366904013381281
+    second: steria_csl_54
+  - first:
+      213: 1941882568065440753
+    second: steria_csl_55
+  - first:
+      213: 795997854676790367
+    second: steria_csl_56
+  - first:
+      213: 7373941584814956843
+    second: steria_csl_57
+  - first:
+      213: 4285786460542211151
+    second: steria_csl_58
+  - first:
+      213: 8515953455470511927
+    second: steria_csl_59
+  - first:
+      213: 2047521815430391053
+    second: steria_csl_60
+  - first:
+      213: -4429042494426718285
+    second: steria_csl_61
+  - first:
+      213: 1781610711315440073
+    second: steria_csl_62
+  - first:
+      213: -4209664099724204018
+    second: steria_csl_63
+  - first:
+      213: 2586423640714422564
+    second: steria_csl_64
+  - first:
+      213: -4128111621122156362
+    second: steria_csl_65
+  - first:
+      213: -6483107035585164388
+    second: steria_csl_66
+  - first:
+      213: -7961338742346661440
+    second: steria_csl_67
+  - first:
+      213: 7252002817585137275
+    second: steria_csl_68
+  - first:
+      213: -1144686034688396424
+    second: steria_csl_69
+  - first:
+      213: 8750818746496186743
+    second: steria_csl_70
+  - first:
+      213: -5822943791195880352
+    second: steria_csl_71
+  - first:
+      213: -3522106283384560852
+    second: steria_csl_72
+  - first:
+      213: 5593244791372201226
+    second: steria_csl_73
+  - first:
+      213: -855688508166651193
+    second: steria_csl_74
+  - first:
+      213: -5973880839675092401
+    second: steria_csl_75
+  - first:
+      213: -8273571455944983465
+    second: steria_csl_76
+  - first:
+      213: 5929364242468340180
+    second: steria_csl_77
+  - first:
+      213: 2088012147426316267
+    second: steria_csl_78
+  - first:
+      213: -4785648572793959975
+    second: steria_csl_79
+  - first:
+      213: -7759305300731219368
+    second: steria_csl_80
+  - first:
+      213: -7608580883929677242
+    second: steria_csl_81
+  - first:
+      213: 8457620773021451797
+    second: steria_csl_82
+  - first:
+      213: 2597406427361565089
+    second: steria_csl_83
+  - first:
+      213: -1840018851009656302
+    second: steria_csl_84
+  - first:
+      213: 8917318225205700762
+    second: steria_csl_85
+  - first:
+      213: -5068597625697833357
+    second: steria_csl_86
+  - first:
+      213: 8947268664043651239
+    second: steria_csl_87
+  - first:
+      213: -6497285639404531534
+    second: steria_csl_88
+  - first:
+      213: -3761045871588139063
+    second: steria_csl_89
+  - first:
+      213: 8772668821799124130
+    second: steria_csl_90
+  - first:
+      213: -3181640605628368838
+    second: steria_csl_91
+  - first:
+      213: -8580094780569059861
+    second: steria_csl_92
+  - first:
+      213: -1757069746175090855
+    second: steria_csl_93
+  - first:
+      213: -7965808910805282579
+    second: steria_csl_94
+  - first:
+      213: -3572703686289441126
+    second: steria_csl_95
+  - first:
+      213: -44362027879261291
+    second: steria_csl_96
+  - first:
+      213: -2330172726569967145
+    second: steria_csl_97
+  - first:
+      213: 399458246077367660
+    second: steria_csl_98
+  - first:
+      213: 7095725111170391268
+    second: steria_csl_99
+  - first:
+      213: -6867074922310076161
+    second: steria_csl_100
+  - first:
+      213: 401535808773149102
+    second: steria_csl_101
+  - first:
+      213: -4999229605720380627
+    second: steria_csl_102
+  - first:
+      213: -839671132632184361
+    second: steria_csl_103
+  - first:
+      213: -2179035888435597713
+    second: steria_csl_104
+  - first:
+      213: -815011037436151771
+    second: steria_csl_105
+  - first:
+      213: 1350258784331627005
+    second: steria_csl_106
+  - first:
+      213: 420012467670718744
+    second: steria_csl_107
+  - first:
+      213: 2488430001211185576
+    second: steria_csl_108
+  - first:
+      213: 4813594597697091853
+    second: steria_csl_109
+  - first:
+      213: 1240653795571017580
+    second: steria_csl_110
+  - first:
+      213: 2329324829651376505
+    second: steria_csl_111
+  - first:
+      213: 8985635048957825872
+    second: steria_csl_112
+  - first:
+      213: -6352904775092457963
+    second: steria_csl_113
+  - first:
+      213: -3712173439803107176
+    second: steria_csl_114
+  - first:
+      213: -7657879837639976608
+    second: steria_csl_115
+  - first:
+      213: -375791975043267154
+    second: steria_csl_116
+  - first:
+      213: -1508259975265299888
+    second: steria_csl_117
+  - first:
+      213: 6384603574486312144
+    second: steria_csl_118
+  - first:
+      213: 8370918090347502092
+    second: steria_csl_119
+  - first:
+      213: 4429841824494100003
+    second: steria_csl_120
+  - first:
+      213: -487659799492651746
+    second: steria_csl_121
+  - first:
+      213: 7667019183973511526
+    second: steria_csl_122
+  - first:
+      213: -7135164325064564705
+    second: steria_csl_123
+  - first:
+      213: 8744524407955153280
+    second: steria_csl_124
+  - first:
+      213: -8519998208073473178
+    second: steria_csl_125
+  - first:
+      213: -3869450625245200942
+    second: steria_csl_126
+  - first:
+      213: 1715756559980704951
+    second: steria_csl_127
+  - first:
+      213: 6572311663802061432
+    second: steria_csl_128
+  - first:
+      213: -2707335567056069590
+    second: steria_csl_129
+  - first:
+      213: 2157991724349494610
+    second: steria_csl_130
+  - first:
+      213: -2758270107559260907
+    second: steria_csl_131
+  - first:
+      213: -4657965662340489480
+    second: steria_csl_132
+  - first:
+      213: -4873378277614104460
+    second: steria_csl_133
+  - first:
+      213: -599150636463746892
+    second: steria_csl_134
+  - first:
+      213: 8697715664510820754
+    second: steria_csl_135
+  - first:
+      213: 6705569663853707768
+    second: steria_csl_136
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 170
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: steria_csl_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edcea442d37341ce8514f04fc1586a1
+      internalID: 4773258304404817196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b6b5853e9764f7fb0e9ce632bfc6c9
+      internalID: -6581083503175601877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8e15e4c3def48c1bbcd4f034f0b9e3
+      internalID: -8310805391385243365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4417e211a84514841a0ecdae6d3cea27
+      internalID: 8290931593405081652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d616631c2f6483d82c14c78b8549be
+      internalID: -9063358903522794074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9932f1042cad74d3287d83bc3799e7de
+      internalID: 7973102851528398562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_6
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a141b2a02ac449aaecf955bd426127
+      internalID: 1888312671781433690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_7
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a49266e41bf4a8dacce86c426587f0
+      internalID: -4940011166588718427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_8
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb3a2f0b6062452da0f4f3b8aebae8a
+      internalID: 3046992469404090595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_9
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5de2dc3856c34eaf8f1b08a9cbbe872
+      internalID: -6282500495134974915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_10
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64f53c0f90aa45119649173e81855b0
+      internalID: -1905921714440517351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_11
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0255ed99c13e4763afcb911fb4902b8
+      internalID: 9020453196340689205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_12
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433db2adae51c4f3eade54e841207c2b
+      internalID: 468060834195182061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_13
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdca8501cddb54e3ba320e1a22a3d8a8
+      internalID: -5845423860894409385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_14
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 2160
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2023340919fac485e995fd1c7ab8726e
+      internalID: -4875554197957374594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76cd67a067724cda9f14259fdd5ecb4
+      internalID: -9053023921413894049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_16
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905d4dafc13054daaae3edd62023b34a
+      internalID: -377045523427991802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0bf757bea3e41c4b5665d75a1bf252
+      internalID: 3447640646285710353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_18
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d5519f6d679422d9ad8f96a1dfa922
+      internalID: 5049176365289008580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_19
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cf60a54f0d54cb5a3e95d0566fd9a1
+      internalID: 3213047242167398700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_20
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4985158d78b8043bea226963c52d6b2b
+      internalID: 4973287778845786726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_21
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f0c55571354469fa79e6672d9bcb98
+      internalID: -7193708736781581815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_22
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47126059212c54a6491bc1e8eae8c38c
+      internalID: -187575751857945387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_23
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e294f592a67dd4d82a7311ba561d4028
+      internalID: 323569563871990685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_24
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eb0a39a87ad4682ab259b39ddd7798
+      internalID: 7388369278172662983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_25
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6a108a190dd4d829cf6bc05eab4fe4
+      internalID: -5746138973040403100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_26
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf96b4c143f740ff9126dee8ac9947d
+      internalID: 199187549179116808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_27
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d1093a236404a00a418330894d579b
+      internalID: -474605950826547021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_28
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937709e97ea0f416e8d186ac0ba6dcb3
+      internalID: 1961268922814367900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_29
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 1920
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46db131a218264938beab9fd4e20341e
+      internalID: 7609629416316744527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ccb988d7e5d40249ac84ca5218afa7
+      internalID: -4488291187234778636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_31
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e7b9fb0227a4505a7dbb82006c861b
+      internalID: 150924128005284776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_32
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aed2ba26bda454eaf2a5ceb1a1764f
+      internalID: -3179719656748599027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_33
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aede37fd3b4c34b32869b4c5372da6c7
+      internalID: 5797893497464789635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_34
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8519c6e33769b41ce9014f7b969ffbe3
+      internalID: 716423596639631772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_35
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10da6bfd77fb0421fa3dcaa5b9345e20
+      internalID: -742260132834316162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_36
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69b2aab2b4aa49ecaee197303b0c8dc
+      internalID: -595420819260009637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_37
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dbb4cb2089b41638b7c0189e11a19a
+      internalID: -1871611983406608480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_38
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04da4c892d22c4384afd2b52c45e3093
+      internalID: -3199746332827087993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_39
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af932dc2f3c7140a8a648894b398ffb4
+      internalID: 3108582093381835153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_40
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02c93500df6243ee841d4c8c1948ade
+      internalID: 8961154975277785787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_41
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52e1d47cf61e449f9e4bc5e4cedb365
+      internalID: -8368141003011820213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_42
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a418886daed35404db9cef0084cd621c
+      internalID: 295383643470466165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_43
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dfdc6c6ab244b73b691a24e777d8a9
+      internalID: 4608373496347672114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_44
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 1680
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d9c4d1ba2894be69a25e34438fcbb5
+      internalID: -1363528185138800373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0c240a506224faaab0a90d75f14af1
+      internalID: 8737556721199057926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_46
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96509d7854858496bb8dc552a061f53c
+      internalID: -1762232368691624868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_47
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c49cf7b1d7c43d1bb09f153743dffd
+      internalID: 2856813236611388959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_48
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eac411e359574d9ba2bbe6fa567058a
+      internalID: -4903084546758837498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_49
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc4a9f60c2f348b998b5fac71e2081c
+      internalID: 6643241648268853147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_50
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dab50f4faf047dca91a8d29cfea436
+      internalID: 3201403158681417182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_51
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5833f9125832b4b1ab5f7906500f3032
+      internalID: 6579821895650272881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_52
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896bf40f2237941bf8acac255896f74d
+      internalID: -5562126582028108209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_53
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8deaf00c0afe542e9a0c2f95eacb8406
+      internalID: 5457565267709405653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_54
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb483345eb2234c3cbf62346bb40455d
+      internalID: -4741366904013381281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_55
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457588926d909462282402a939daa38c
+      internalID: 1941882568065440753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_56
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973f723f77524443c99cd318729353a0
+      internalID: 795997854676790367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_57
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f7d9391e65e419b82c81de8cd20774
+      internalID: 7373941584814956843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_58
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09424a612eed04903a782f26b1dac34d
+      internalID: 4285786460542211151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_59
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 1440
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d0bdff00a224fa39fd3c50a1720148
+      internalID: 8515953455470511927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363c6e8c98bd14fb39288813c1bd0024
+      internalID: 2047521815430391053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_61
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0c4584f98a94716a5f174b2fe3fae7
+      internalID: -4429042494426718285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_62
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7482bc32a2b4b53886c2926e00235c
+      internalID: 1781610711315440073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_63
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e628fc198e445b8a520fddd55bedf8
+      internalID: -4209664099724204018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_64
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2b1ed8a68134c5ca75c68af6eb204c
+      internalID: 2586423640714422564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_65
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb018040ad4d348b994e24080a85d2d3
+      internalID: -4128111621122156362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_66
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1655f4714e5440999e3b899535e62d
+      internalID: -6483107035585164388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_67
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e16da3ff2b14dbf8b27d61c758c6cd
+      internalID: -7961338742346661440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_68
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47263a35b6f724429ab7408351450890
+      internalID: 7252002817585137275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_69
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13261f25fa7714ead9fd4172d4a8c8ef
+      internalID: -1144686034688396424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_70
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d187b30749a8f486685eae015f7994ae
+      internalID: 8750818746496186743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_71
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700ea33fdf39643c9b89274bed3780bc
+      internalID: -5822943791195880352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_72
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee640d4262fd14a47a57bf735e8a077a
+      internalID: -3522106283384560852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_73
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430852ea99e354d398e5bd32bdbdce75
+      internalID: 5593244791372201226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_74
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 1200
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7063b059fa2cd4663bbdef90ee8cc681
+      internalID: -855688508166651193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf04693ef6344339865534d530e891e
+      internalID: -5973880839675092401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_76
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c97c72ff7e240568deb383527c2e9b
+      internalID: -8273571455944983465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_77
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1497a29a47f4849bcbf85ed6a9f425
+      internalID: 5929364242468340180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_78
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ad8a8f29291468c8b1830e6d726230
+      internalID: 2088012147426316267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_79
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc7b002b366a4cabacf00201b6ee427
+      internalID: -4785648572793959975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_80
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce763af645b0645928bd0632e7c89829
+      internalID: -7759305300731219368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_81
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a765b4b98e44df7a22a6b5decbdd69
+      internalID: -7608580883929677242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_82
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa426f695460a42f4898b7f6aa3f57e9
+      internalID: 8457620773021451797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_83
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64db36dac49840ddbead887ac5bff4d
+      internalID: 2597406427361565089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_84
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c32a53d87fd4bf89f256c83501db94
+      internalID: -1840018851009656302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_85
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f31d1cd3fa634806aa16de00db1b601
+      internalID: 8917318225205700762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_86
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde9667741f5c4522a3010717670edaf
+      internalID: -5068597625697833357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_87
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e8fa052d4264f249aecf28c8237ad6
+      internalID: 8947268664043651239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_88
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7941263d1fd448b8c1a11fdae32d50
+      internalID: -6497285639404531534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_89
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 960
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231f5e80c06044fec8a7f518a79513e8
+      internalID: -3761045871588139063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4fa1adbb262472087eb27221377475
+      internalID: 8772668821799124130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_91
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca33e7e1e322044deba7166696fbc99b
+      internalID: -3181640605628368838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_92
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbf51053814345549384728a7027793
+      internalID: -8580094780569059861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_93
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9d1c48b41934fe0b5f1a2b1e2b4c85
+      internalID: -1757069746175090855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_94
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0885686c33f4ea28fc5d0216b35db0
+      internalID: -7965808910805282579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_95
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7308a8c9e2c8b4cdbbffa1c21aabe322
+      internalID: -3572703686289441126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_96
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fa5981cf2e840c7a28c9dace81a485
+      internalID: -44362027879261291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_97
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b453dd69e6414a0f95f3bb206f7486d
+      internalID: -2330172726569967145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_98
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732cc3af0aae64791a0225d2a14b27b0
+      internalID: 399458246077367660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_99
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a43bc1b7682a4dd2baf010db1fd3b80
+      internalID: 7095725111170391268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_100
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ecfc8f272be49f88baadeb27828edf
+      internalID: -6867074922310076161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_101
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421eba3c44e8440e9bdd8addb7b48559
+      internalID: 401535808773149102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_102
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2cd245e7e9546dbaab77a529d22aa4
+      internalID: -4999229605720380627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_103
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af9d7d40920b464397bce5e347fc3ee
+      internalID: -839671132632184361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_104
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 720
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007d3a65e1e9241239755a32c566c564
+      internalID: -2179035888435597713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410b2b452816743558d30d9c4e479819
+      internalID: -815011037436151771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_106
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076ec925de32c46c7955fbd07d3f732a
+      internalID: 1350258784331627005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_107
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c2e51d2702946609e89ac454a5aa6d
+      internalID: 420012467670718744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_108
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5e344cfb7e24ca5aa9368c57ce9ee8
+      internalID: 2488430001211185576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_109
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da47c8cf12224428689803568909b5b5
+      internalID: 4813594597697091853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_110
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111293008c6c64dae8dade9a7511f64c
+      internalID: 1240653795571017580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_111
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fa76df90fc046edb8fd1a5680cb2c1
+      internalID: 2329324829651376505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_112
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c6e69932f6246d5b3ca3092f21f9ef
+      internalID: 8985635048957825872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_113
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3339be93d3441437589ba130c62b18f0
+      internalID: -6352904775092457963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_114
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae38ba3534eb64ee2af87841856cd21b
+      internalID: -3712173439803107176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_115
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec7f6efaa70f4190a87cf887fa6b235
+      internalID: -7657879837639976608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_116
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f375c5fbac5fe4a7291df0d597a4de0c
+      internalID: -375791975043267154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_117
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057e6835aaa9c490baac9463d64f4fd7
+      internalID: -1508259975265299888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_118
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2c6778a39854ce8b921eef3752f3e5
+      internalID: 6384603574486312144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_119
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 480
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78c8ecd7e1224cae8d8955ea8ca6d53
+      internalID: 8370918090347502092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893ab214b969f4e0785fc0770b347142
+      internalID: 4429841824494100003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_121
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7115f369a39fa440e85ebf5f3a5d4b64
+      internalID: -487659799492651746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_122
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a6ed4a572264f95bbf7c5645aa8a66
+      internalID: 7667019183973511526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_123
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b88df58cf92344bab379fffc0ad009a
+      internalID: -7135164325064564705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_124
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7181479593824348b87abee01466713
+      internalID: 8744524407955153280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_125
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f131ad6aa172e4e37b500df1f5a72f19
+      internalID: -8519998208073473178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_126
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929dbeb533f884346adef1eb0daf4c4c
+      internalID: -3869450625245200942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_127
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815c4bb0361354af4b49f85bce7a6c2f
+      internalID: 1715756559980704951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_128
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc66dd2987284b0d918d8334f54f877
+      internalID: 6572311663802061432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_129
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b068b878161a47cd86b2c1d501fcc5e
+      internalID: -2707335567056069590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_130
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52f835e20f854216a286a44cbb2a0ca
+      internalID: 2157991724349494610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_131
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dd12d0ee25b4b2b95ed04366bf8472
+      internalID: -2758270107559260907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_132
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d33007d9802e458d98ad6e936c13f8f
+      internalID: -4657965662340489480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_133
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a8036a302084d7da25b942784198b9
+      internalID: -4873378277614104460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_134
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 240
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caf59e6c41ea45428784f57dfb5e56b
+      internalID: -599150636463746892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc8df1dc87b644babf0bac4a9608cc1
+      internalID: 8697715664510820754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_csl_136
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297f6a18d8a324823be96590c3bf8aab
+      internalID: 6705569663853707768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cf8f4c938e4064da68734f75b47681a8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
