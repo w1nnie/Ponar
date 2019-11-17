@@ -14,7 +14,8 @@ public class OnSteria : MonoBehaviour
     {
         time = 0f;
         isOnSteria = false;
-        SetParameter(0);
+        SetParameter(0,0);
+        SetParameter(1,0);
     }
 
     void Update()
@@ -27,18 +28,23 @@ public class OnSteria : MonoBehaviour
         else
         {
             time += Time.deltaTime;
-            if(time > 2.5 && time < 3)
+            if(time < 2.5)
             {
-                SetParameter((float)(2000*(time-2.5)));
+                SetParameter(1,time*400);
+            }
+            else if(time > 2.5 && time < 3)
+            {
+                SetParameter(0,(float)(2000*(time-2.5)));
+                SetParameter(1,0);
             }
             else if(time > 3 && time < 5.5)
             {
-                SetParameter((float)(1000*(5.5-time)));
+                SetParameter(0,(float)(1000*(5.5-time)));
                 FadeIn();
             }
-            else if(time >= 3.5)
+            else if(time >= 5.5)
             {
-                SetParameter(0);
+                SetParameter(0,0);
             }
         }
     }
@@ -53,9 +59,9 @@ public class OnSteria : MonoBehaviour
         color.a = alpha;
         srn.color = color;
     }
-    void SetParameter(float value)
+    void SetParameter(int index,float value)
     {
-        VisualEffect vfx = GetComponentInChildren<VisualEffect>();
+        VisualEffect vfx = GetComponentsInChildren<VisualEffect>()[index];
         vfx.SetFloat("spawnRate", value);
     }
     public void trackOnSteria()
