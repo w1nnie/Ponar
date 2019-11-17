@@ -870,21 +870,22 @@ VisualEffectResource:
       float tmp_bc = (float)tmp_bb;\n            bool tmp_be = tmp_bc == (float)0;\n           
       bool tmp_bh = tmp_bc == (float)1;\n            bool tmp_bk = tmp_bc == (float)2;\n           
       bool tmp_bn = tmp_bc == (float)3;\n            float3 tmp_bp = tmp_bn ? float3(-0.5,
-      0.0500000007, -0.75) : float3(0, 0, 0);\n            float3 tmp_bq = tmp_bk
-      ? float3(0.5, 0.0500000007, -0.75) : tmp_bp;\n            float3 tmp_br = tmp_bh
-      ? float3(-0.5, 0.0500000007, -0.75) : tmp_bq;\n            float3 tmp_bs =
-      tmp_be ? float3(-0.5, 0.0500000007, 0.75) : tmp_br;\n            float3 tmp_bv
-      = tmp_bn ? float3(-0.5, 0.0500000007, 0.75) : float3(-1, 0, 0);\n           
-      float3 tmp_bw = tmp_bk ? float3(0.5, 0.0500000007, 0.75) : tmp_bv;\n           
-      float3 tmp_bx = tmp_bh ? float3(0.5, 0.0500000007, -0.75) : tmp_bw;\n           
-      float3 tmp_by = tmp_be ? float3(0.5, 0.0500000007, 0.75) : tmp_bx;\n           
-      PositionLine_0( /*inout */attributes.position,  /*inout */attributes.seed,
-      tmp_bs, tmp_by, (float)1);\n        }\n        {\n            SetAttribute_2EBDF112(
-      /*inout */attributes.size, (float)9.99999994E-09);\n        }\n        {\n           
-      SetAttribute_EC596BAC( /*inout */attributes.lifetime, (float)1);\n        }\n       
-      \n\r\n\t\t\r\n#if VFX_USE_ALIVE_CURRENT\r\n        if (attributes.alive)\r\n#endif      
-      \r\n        {\r\n#if USE_DEAD_LIST\r\n\t        uint deadIndex = deadListIn.DecrementCounter();\r\n           
-      uint index = deadListIn[deadIndex];\r\n#else\r\n            uint index = particleIndex;\r\n#endif\r\n           
+      0.0500000007, -0.699999988) : float3(0, 0, 0);\n            float3 tmp_bq =
+      tmp_bk ? float3(0.5, 0.0500000007, -0.699999988) : tmp_bp;\n            float3
+      tmp_br = tmp_bh ? float3(-0.5, 0.0500000007, -0.699999988) : tmp_bq;\n           
+      float3 tmp_bs = tmp_be ? float3(-0.5, 0.0500000007, 0.699999988) : tmp_br;\n           
+      float3 tmp_bv = tmp_bn ? float3(-0.5, 0.0500000007, 0.699999988) : float3(-1,
+      0, 0);\n            float3 tmp_bw = tmp_bk ? float3(0.5, 0.0500000007, 0.699999988)
+      : tmp_bv;\n            float3 tmp_bx = tmp_bh ? float3(0.5, 0.0500000007, -0.699999988)
+      : tmp_bw;\n            float3 tmp_by = tmp_be ? float3(0.5, 0.0500000007, 0.699999988)
+      : tmp_bx;\n            PositionLine_0( /*inout */attributes.position,  /*inout
+      */attributes.seed, tmp_bs, tmp_by, (float)1);\n        }\n        {\n           
+      SetAttribute_2EBDF112( /*inout */attributes.size, (float)9.99999994E-09);\n       
+      }\n        {\n            SetAttribute_EC596BAC( /*inout */attributes.lifetime,
+      (float)1);\n        }\n        \n\r\n\t\t\r\n#if VFX_USE_ALIVE_CURRENT\r\n       
+      if (attributes.alive)\r\n#endif       \r\n        {\r\n#if USE_DEAD_LIST\r\n\t       
+      uint deadIndex = deadListIn.DecrementCounter();\r\n            uint index =
+      deadListIn[deadIndex];\r\n#else\r\n            uint index = particleIndex;\r\n#endif\r\n           
       attributeBuffer.Store3((index * 0x4 + 0x0) << 2,asuint(attributes.velocity));\n           
       attributeBuffer.Store3((index * 0x8 + 0x1000) << 2,asuint(attributes.position));\n           
       attributeBuffer.Store((index * 0x1 + 0x3000) << 2,asuint(attributes.size));\n           
@@ -1396,15 +1397,15 @@ VisualEffectResource:
         - m_ExpressionIndex: 5
           m_Value: {x: -1, y: 0, z: 0}
         - m_ExpressionIndex: 7
-          m_Value: {x: -0.5, y: 0.05, z: 0.75}
+          m_Value: {x: -0.5, y: 0.05, z: 0.7}
         - m_ExpressionIndex: 8
-          m_Value: {x: -0.5, y: 0.05, z: -0.75}
+          m_Value: {x: -0.5, y: 0.05, z: -0.7}
         - m_ExpressionIndex: 9
           m_Value: {x: 0, y: 0, z: 0}
         - m_ExpressionIndex: 11
-          m_Value: {x: 0.5, y: 0.05, z: -0.75}
+          m_Value: {x: 0.5, y: 0.05, z: -0.7}
         - m_ExpressionIndex: 12
-          m_Value: {x: 0.5, y: 0.05, z: 0.75}
+          m_Value: {x: 0.5, y: 0.05, z: 0.7}
         - m_ExpressionIndex: 19
           m_Value: {x: 0, y: 0, z: 1}
         - m_ExpressionIndex: 22
@@ -3012,7 +3013,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Line, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"start":{"x":-0.5,"y":0.05000000074505806,"z":0.75},"end":{"x":0.5,"y":0.05000000074505806,"z":0.75}}'
+      m_SerializableObject: '{"start":{"x":-0.5,"y":0.05000000074505806,"z":0.699999988079071},"end":{"x":0.5,"y":0.05000000074505806,"z":0.699999988079071}}'
     m_Space: 0
   m_Property:
     name: o
@@ -3373,7 +3374,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Line, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"start":{"x":-0.5,"y":0.05000000074505806,"z":-0.75},"end":{"x":0.5,"y":0.05000000074505806,"z":-0.75}}'
+      m_SerializableObject: '{"start":{"x":-0.5,"y":0.05000000074505806,"z":-0.699999988079071},"end":{"x":0.5,"y":0.05000000074505806,"z":-0.699999988079071}}'
     m_Space: 0
   m_Property:
     name: o
@@ -3734,7 +3735,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Line, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"start":{"x":0.5,"y":0.05000000074505806,"z":-0.75},"end":{"x":0.5,"y":0.05000000074505806,"z":0.75}}'
+      m_SerializableObject: '{"start":{"x":0.5,"y":0.05000000074505806,"z":-0.699999988079071},"end":{"x":0.5,"y":0.05000000074505806,"z":0.699999988079071}}'
     m_Space: 0
   m_Property:
     name: o
@@ -4042,7 +4043,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
@@ -4095,7 +4096,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Line, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"start":{"x":-0.5,"y":0.05000000074505806,"z":-0.75},"end":{"x":-0.5,"y":0.05000000074505806,"z":0.75}}'
+      m_SerializableObject: '{"start":{"x":-0.5,"y":0.05000000074505806,"z":-0.699999988079071},"end":{"x":-0.5,"y":0.05000000074505806,"z":0.699999988079071}}'
     m_Space: 0
   m_Property:
     name: o

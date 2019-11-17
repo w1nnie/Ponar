@@ -14,8 +14,8 @@ public class OnSteria : MonoBehaviour
     {
         time = 0f;
         isOnSteria = false;
-        SetParameter(0,0);
-        SetParameter(1,0);
+        SetVFXParameter(0,0);
+        SetVFXParameter(1,0);
     }
 
     void Update()
@@ -23,43 +23,69 @@ public class OnSteria : MonoBehaviour
         if (!isOnSteria)
         {
             time = 0f;
-            SetAlpha(0);
+            SetSpriteAlpha(0,0);
+            SetSpriteAlpha(1,0);
         }
         else
         {
             time += Time.deltaTime;
-            if(time < 2.5)
-            {
-                SetParameter(1,time*400);
-            }
-            else if(time > 2.5 && time < 3)
-            {
-                SetParameter(0,(float)(2000*(time-2.5)));
-                SetParameter(1,0);
-            }
-            else if(time > 3 && time < 5.5)
-            {
-                SetParameter(0,(float)(1000*(5.5-time)));
-                FadeIn();
-            }
-            else if(time >= 5.5)
-            {
-                SetParameter(0,0);
-            }
+            textAnimation(time);
+            pixelizeAnimation(time);
+            detectAnimation(time);
         }
     }
-    void FadeIn(){
-        double a = (time - 3) / 2.5;
-        SetAlpha((float)a);
-    }
-    void SetAlpha(float alpha)
+    void textAnimation(float time)
     {
-        SpriteRenderer srn = GetComponentInChildren<SpriteRenderer>();
+        if(time < 2.8)
+        {
+            float f = Mathf.Sin((float)(2 * Mathf.PI * time / (2.8 * 3) * 4));
+            SetSpriteAlpha(1, Mathf.Abs(f));
+        }
+        else if(time > 2.8 && time < 3)
+        {
+            SetSpriteAlpha(1,1);
+        }
+        else if(time > 3)
+        {
+            SetSpriteAlpha(1,0);
+        }
+    }
+    void pixelizeAnimation(float time)
+    {
+        if(time > 3 && time < 4.8)
+        {
+            SetVFXParameter(0,(float)(1000*(4.8-time)));
+            pixelartFadeIn(0);
+        }
+        else if(time >= 4.8)
+        {
+            SetVFXParameter(0,0);
+        }
+    }
+    void detectAnimation(float time)
+    {
+        if(time < 2.5)
+        {
+            SetVFXParameter(1, time*400);
+        }
+        else if(time > 2.5)
+        {
+            SetVFXParameter(1,0);
+        }
+    }
+    void pixelartFadeIn(int index)
+    {
+        double a = (time - 3) / 2.5;
+        SetSpriteAlpha(index, (float)a);
+    }
+    void SetSpriteAlpha(int index, float alpha)
+    {
+        SpriteRenderer srn = GetComponentsInChildren<SpriteRenderer>()[index];
         var color = srn.color;
         color.a = alpha;
         srn.color = color;
     }
-    void SetParameter(int index,float value)
+    void SetVFXParameter(int index,float value)
     {
         VisualEffect vfx = GetComponentsInChildren<VisualEffect>()[index];
         vfx.SetFloat("spawnRate", value);
