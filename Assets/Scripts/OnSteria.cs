@@ -31,6 +31,7 @@ public class OnSteria : MonoBehaviour
             time += Time.deltaTime;
             textAnimation(time);
             pixelizeAnimation(time);
+            pixelartAnimation(time);
             detectAnimation(time);
         }
     }
@@ -55,11 +56,17 @@ public class OnSteria : MonoBehaviour
         if(time > 3 && time < 4.8)
         {
             SetVFXParameter(0,(float)(1000*(4.8-time)));
-            pixelartFadeIn(0);
         }
         else if(time >= 4.8)
         {
             SetVFXParameter(0,0);
+        }
+    }
+    void pixelartAnimation(float time)
+    {
+        if(time > 3 && time < 4.8)
+        {
+            pixelartFadeIn(0);
         }
     }
     void detectAnimation(float time)
@@ -75,7 +82,7 @@ public class OnSteria : MonoBehaviour
     }
     void pixelartFadeIn(int index)
     {
-        double a = (time - 3) / 2.5;
+        double a = (time - 3) / 1.8;
         SetSpriteAlpha(index, (float)a);
     }
     void SetSpriteAlpha(int index, float alpha)

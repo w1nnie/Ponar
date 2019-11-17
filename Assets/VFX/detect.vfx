@@ -798,7 +798,7 @@ VisualEffectResource:
       1\n#define VFX_USE_VELOCITY_CURRENT 1\n#define VFX_USE_SEED_CURRENT 1\n#define
       VFX_USE_POSITION_CURRENT 1\n#define VFX_USE_SIZE_CURRENT 1\n#define VFX_USE_LIFETIME_CURRENT
       1\n#define VFX_USE_PARTICLEID_CURRENT 1\n#define VFX_USE_ALIVE_CURRENT 1\n#define
-      VFX_USE_AGE_CURRENT 1\n#define VFX_LOCAL_SPACE 1\n#include \"Packages/com.unity.render-pipelines.high-definition/Runtime/VFXGraph/Shaders/VFXDefines.hlsl\"\n\n\r\nCBUFFER_START(parameters)\n   
+      VFX_USE_AGE_CURRENT 1\n#define VFX_LOCAL_SPACE 1\n#include \"Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/Universal/VFXDefines.hlsl\"\n\n\r\nCBUFFER_START(parameters)\n   
       float uniform_b;\n    uint3 PADDING_0;\nCBUFFER_END\n\nstruct Attributes\n{\n   
       float3 velocity;\n    uint seed;\n    float3 position;\n    float size;\n   
       float lifetime;\n    uint particleId;\n    bool alive;\n    float age;\n};\n\nstruct
@@ -898,7 +898,7 @@ VisualEffectResource:
     source: "#pragma kernel CSMain\r\n#define NB_THREADS_PER_GROUP 64\n#define HAS_ATTRIBUTES
       1\n#define VFX_USE_VELOCITY_CURRENT 1\n#define VFX_USE_POSITION_CURRENT 1\n#define
       VFX_USE_LIFETIME_CURRENT 1\n#define VFX_USE_ALIVE_CURRENT 1\n#define VFX_USE_AGE_CURRENT
-      1\n#define VFX_LOCAL_SPACE 1\n#include \"Packages/com.unity.render-pipelines.high-definition/Runtime/VFXGraph/Shaders/VFXDefines.hlsl\"\n\n\r\nCBUFFER_START(parameters)\n   
+      1\n#define VFX_LOCAL_SPACE 1\n#include \"Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/Universal/VFXDefines.hlsl\"\n\n\r\nCBUFFER_START(parameters)\n   
       float deltaTime_a;\n    uint3 PADDING_0;\nCBUFFER_END\n\nstruct Attributes\n{\n   
       float3 velocity;\n    float3 position;\n    float lifetime;\n    bool alive;\n   
       float age;\n};\n\nstruct SourceAttributes\n{\n};\n\n\n\r\n\r\n#define USE_DEAD_LIST
@@ -965,9 +965,9 @@ VisualEffectResource:
   - compute: 0
     name: '[System 1]Quad Output'
     source: "Shader \"Hidden/VFX/detect/System 1/Quad Output\"\n{\r\n\tSubShader\r\n\t{\t\r\n\t\tCull
-      Off\r\n\t\t\r\n\t\tTags { \"Queue\"=\"Transparent+0\" \"IgnoreProjector\"=\"True\"
+      Off\r\n\t\t\r\n\t\tTags { \"Queue\"=\"Transparent\" \"IgnoreProjector\"=\"True\"
       \"RenderType\"=\"Transparent\" }\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\n\t\t\r\n\t\tBlend
-      SrcAlpha One \n\t\tZTest LEqual\n\t\tZWrite Off\n\t\tCull Off\n\t\t\n\t\r\n\t\t\t\r\n\t\tHLSLINCLUDE\r\n\t\t#if
+      SrcAlpha One\n\t\tZTest LEqual\n\t\tZWrite Off\n\t\tCull Off\n\t\t\n\t\r\n\t\t\t\r\n\t\tHLSLINCLUDE\r\n\t\t#if
       !defined(VFX_WORLD_SPACE) && !defined(VFX_LOCAL_SPACE)\r\n\t\t#define VFX_LOCAL_SPACE
       1\r\n\t\t#endif\r\n\t\t\r\n\t\t#define NB_THREADS_PER_GROUP 64\n\t\t#define
       HAS_ATTRIBUTES 1\n\t\t#define VFX_USE_POSITION_CURRENT 1\n\t\t#define VFX_USE_SIZE_CURRENT
@@ -980,9 +980,8 @@ VisualEffectResource:
       1\n\t\t#define VFX_USE_SCALEX_CURRENT 1\n\t\t#define VFX_USE_SCALEY_CURRENT
       1\n\t\t#define VFX_USE_SCALEZ_CURRENT 1\n\t\t#define VFX_USE_AGE_CURRENT 1\n\t\t#define
       VFX_COLORMAPPING_DEFAULT 1\n\t\t#define IS_TRANSPARENT_PARTICLE 1\n\t\t#define
-      VFX_BLENDMODE_ADD 1\n\t\t#define VFX_BYPASS_EXPOSURE 1\n\t\t#define VFX_PRIMITIVE_QUAD
-      1\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t#define VFX_LOCAL_SPACE 1\n\t\t#include
-      \"Packages/com.unity.render-pipelines.high-definition/Runtime/VFXGraph/Shaders/VFXDefines.hlsl\"\n\t\t\n\r\n\t\tCBUFFER_START(parameters)\n\t\t   
+      VFX_BLENDMODE_ADD 1\n\t\t#define VFX_PRIMITIVE_QUAD 1\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t#define
+      VFX_LOCAL_SPACE 1\n\t\t#include \"Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/Universal/VFXDefines.hlsl\"\n\t\t\n\r\n\t\tCBUFFER_START(parameters)\n\t\t   
       float4 Size_b;\n\t\t    float gradient_c;\n\t\t    uint3 PADDING_0;\n\t\tCBUFFER_END\n\t\t\n\t\tstruct
       Attributes\n\t\t{\n\t\t    float3 position;\n\t\t    float size;\n\t\t    float
       lifetime;\n\t\t    float3 color;\n\t\t    float alpha;\n\t\t    bool alive;\n\t\t   
@@ -1005,10 +1004,10 @@ VisualEffectResource:
       VFX_DECLARE_INSTANCE_ID     UNITY_VERTEX_INPUT_INSTANCE_ID\r\n\t\t\t#define
       VFX_GET_INSTANCE_ID(i)      unity_InstanceID\r\n\t\t#else\r\n\t\t\t#define
       VFX_DECLARE_INSTANCE_ID     uint instanceID : SV_InstanceID;\r\n\t\t\t#define
-      VFX_GET_INSTANCE_ID(i)      i.instanceID\r\n\t\t#endif\r\n\t\t\r\n\t\tENDHLSL\r\n\t\t\n\r\n\t\t\r\n\t\t\r\n\t\t//
-      Forward pass\r\n\t\tPass\r\n\t\t{\t\t\r\n\t\t\tTags { \"LightMode\"=\"ForwardOnly\"
+      VFX_GET_INSTANCE_ID(i)      i.instanceID\r\n\t\t#endif\r\n\t\t\r\n\t\tENDHLSL\r\n\t\t\n\r\n\t\t//
+      Forward pass\r\n\t\tPass\r\n\t\t{\t\t\r\n\t\t\tTags { \"LightMode\"=\"UniversalForward\"
       }\r\n\t\t\t\r\n\t\t\tHLSLPROGRAM\r\n\t\t\t#pragma target 4.5\r\n\t\t\t#pragma
-      multi_compile _ DEBUG_DISPLAY\r\n\t\t\r\n\t\t\tstruct ps_input\r\n\t\t\t{\r\n\t\t\t\tfloat4
+      multi_compile_fog\r\n\t\t\r\n\t\t\tstruct ps_input\r\n\t\t\t{\r\n\t\t\t\tfloat4
       pos : SV_POSITION;\r\n\t\t\t\t#if USE_FLIPBOOK_INTERPOLATION\r\n\t\t\t\tfloat4
       uv : TEXCOORD0;\r\n\t\t\t\t#else\r\n\t\t\t\tfloat2 uv : TEXCOORD0;\t\r\n\t\t\t\t#endif\r\n\t\t\t\t#if
       VFX_NEEDS_COLOR_INTERPOLATOR\r\n\t\t\t\tVFX_OPTIONAL_INTERPOLATION float4 color
@@ -1036,7 +1035,7 @@ VisualEffectResource:
       cPosPrevious\r\n\t\t#endif\r\n\t\t\t\t\r\n\t\t\t#if !(defined(VFX_VARYING_PS_INPUTS)
       && defined(VFX_VARYING_POSCS))\r\n\t\t\t#error VFX_VARYING_PS_INPUTS, VFX_VARYING_POSCS
       and VFX_VARYING_UV must be defined.\r\n\t\t\t#endif\r\n\t\t\t\r\n\t\t\t#include
-      \"Packages/com.unity.render-pipelines.high-definition/Runtime/VFXGraph/Shaders/VFXCommon.hlsl\"\n\t\t\t#include
+      \"Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/Universal/VFXCommon.hlsl\"\n\t\t\t#include
       \"Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.hlsl\"\n\t\t\t\n\r\n\t\t\tvoid
       Orient_631(inout float3 axisX, inout float3 axisY, inout float3 axisZ, float3
       AxisX, float3 AxisZ) /*mode:Advanced axes:XZ */\n\t\t\t{\n\t\t\t    \r\n\t\t\t   
