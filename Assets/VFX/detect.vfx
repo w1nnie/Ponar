@@ -445,7 +445,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614568}
   - {fileID: 8926484042661614747}
   m_OutputSlots: []
-  m_Disabled: 1
+  m_Disabled: 0
   mode: 4
   axes: 4
 --- !u!114 &114596491906001080
@@ -983,7 +983,7 @@ VisualEffectResource:
       VFX_COLORMAPPING_DEFAULT 1\n\t\t#define IS_TRANSPARENT_PARTICLE 1\n\t\t#define
       VFX_BLENDMODE_ADD 1\n\t\t#define VFX_PRIMITIVE_QUAD 1\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t#define
       VFX_LOCAL_SPACE 1\n\t\t#include \"Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/Universal/VFXDefines.hlsl\"\n\t\t\n\r\n\t\tCBUFFER_START(parameters)\n\t\t   
-      float4 Size_a;\n\t\t    float gradient_b;\n\t\t    uint3 PADDING_0;\n\t\tCBUFFER_END\n\t\t\n\t\tstruct
+      float4 Size_b;\n\t\t    float gradient_c;\n\t\t    uint3 PADDING_0;\n\t\tCBUFFER_END\n\t\t\n\t\tstruct
       Attributes\n\t\t{\n\t\t    float3 position;\n\t\t    float size;\n\t\t    float
       lifetime;\n\t\t    float3 color;\n\t\t    float alpha;\n\t\t    bool alive;\n\t\t   
       float3 axisX;\n\t\t    float3 axisY;\n\t\t    float3 axisZ;\n\t\t    float
@@ -1038,18 +1038,21 @@ VisualEffectResource:
       and VFX_VARYING_UV must be defined.\r\n\t\t\t#endif\r\n\t\t\t\r\n\t\t\t#include
       \"Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/Universal/VFXCommon.hlsl\"\n\t\t\t#include
       \"Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.hlsl\"\n\t\t\t\n\r\n\t\t\tvoid
-      AttributeFromCurve_45ABB90F(inout float size, float age, float lifetime, float4
-      Size) /*attribute:size Composition:Overwrite AlphaComposition:Overwrite SampleMode:OverLife
-      Mode:PerComponent ColorMode:ColorAndAlpha channels:X */\n\t\t\t{\n\t\t\t   
-      float t = age / lifetime;\n\t\t\t    float value = 0.0f;\n\t\t\t    value =
-      SampleCurve(Size, t);\n\t\t\t    size = value;\n\t\t\t}\n\t\t\tvoid ColorOverLife_733E3(float
-      age, float lifetime, inout float3 color, inout float alpha, float gradient)
-      /*mode:ColorAndAlpha ColorComposition:Multiply AlphaComposition:Multiply */\n\t\t\t{\n\t\t\t   
-      \r\n\t\t\t    float4 sampledColor = SampleGradient(gradient, age/lifetime);\r\n\t\t\t   
-      color *= sampledColor.rgb;\n\t\t\t    alpha *= sampledColor.a;\n\t\t\t    \n\t\t\t}\n\t\t\t\n\r\n\t\t\t\r\n\t\t\t#if
-      defined(HAS_STRIPS) && !defined(VFX_PRIMITIVE_QUAD)\r\n\t\t\t#error VFX_PRIMITIVE_QUAD
-      must be defined when HAS_STRIPS is.\r\n\t\t\t#endif\r\n\t\t\t\r\n\t\t\tstruct
-      vs_input\r\n\t\t\t{\r\n\t\t\t\tVFX_DECLARE_INSTANCE_ID\r\n\t\t\t};\r\n\t\t\t\r\n\t\t\t#if
+      Orient_630(inout float3 axisX, inout float3 axisY, inout float3 axisZ, float3
+      AxisZ, float3 AxisY) /*mode:Advanced axes:ZY */\n\t\t\t{\n\t\t\t    \r\n\t\t\t   
+      axisZ = normalize(AxisZ);\r\n\t\t\t    axisX = normalize(cross(AxisY, AxisZ));\r\n\t\t\t   
+      axisY = cross(axisZ, axisX);\r\n\t\t\t    \n\t\t\t}\n\t\t\tvoid AttributeFromCurve_45ABB90F(inout
+      float size, float age, float lifetime, float4 Size) /*attribute:size Composition:Overwrite
+      AlphaComposition:Overwrite SampleMode:OverLife Mode:PerComponent ColorMode:ColorAndAlpha
+      channels:X */\n\t\t\t{\n\t\t\t    float t = age / lifetime;\n\t\t\t    float
+      value = 0.0f;\n\t\t\t    value = SampleCurve(Size, t);\n\t\t\t    size = value;\n\t\t\t}\n\t\t\tvoid
+      ColorOverLife_733E3(float age, float lifetime, inout float3 color, inout float
+      alpha, float gradient) /*mode:ColorAndAlpha ColorComposition:Multiply AlphaComposition:Multiply
+      */\n\t\t\t{\n\t\t\t    \r\n\t\t\t    float4 sampledColor = SampleGradient(gradient,
+      age/lifetime);\r\n\t\t\t    color *= sampledColor.rgb;\n\t\t\t    alpha *=
+      sampledColor.a;\n\t\t\t    \n\t\t\t}\n\t\t\t\n\r\n\t\t\t\r\n\t\t\t#if defined(HAS_STRIPS)
+      && !defined(VFX_PRIMITIVE_QUAD)\r\n\t\t\t#error VFX_PRIMITIVE_QUAD must be
+      defined when HAS_STRIPS is.\r\n\t\t\t#endif\r\n\t\t\t\r\n\t\t\tstruct vs_input\r\n\t\t\t{\r\n\t\t\t\tVFX_DECLARE_INSTANCE_ID\r\n\t\t\t};\r\n\t\t\t\r\n\t\t\t#if
       HAS_STRIPS\r\n\t\t\t#define PARTICLE_IN_EDGE (id & 1)\r\n\t\t\t\r\n\t\t\tfloat3
       GetParticlePosition(uint index)\r\n\t\t\t{\r\n\t\t\t\tstruct Attributes attributes
       = (Attributes)0;\r\n\t\t\t\tattributes.position = asfloat(attributeBuffer.Load3((index
@@ -1109,10 +1112,12 @@ VisualEffectResource:
       = (float)1;\n\t\t\t\t\t\tattributes.scaleZ = (float)1;\n\t\t\t\t\t\tattributes.age
       = asfloat(attributeBuffer.Load((index * 0x8 + 0x1004) << 2));\n\t\t\t\t\t\t\n\t\t\t\t\r\n\t\t\t\t\t\t#endif\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t//
       Initialize built-in needed attributes\r\n\t\t\t\t\t\t#if HAS_STRIPS\r\n\t\t\t\t\t\tInitStripAttributes(index,
-      attributes, stripData);\r\n\t\t\t\t\t\t#endif\r\n\t\t\t\t\t\t\t\r\n\t\t\t\tAttributeFromCurve_45ABB90F(
-      /*inout */attributes.size, attributes.age, attributes.lifetime, Size_a);\n\t\t\t\tColorOverLife_733E3(attributes.age,
+      attributes, stripData);\r\n\t\t\t\t\t\t#endif\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t{\n\t\t\t\t   
+      Orient_630( /*inout */attributes.axisX,  /*inout */attributes.axisY,  /*inout
+      */attributes.axisZ, float3(0, 1, 0), float3(0, 0, 1));\n\t\t\t\t}\n\t\t\t\tAttributeFromCurve_45ABB90F(
+      /*inout */attributes.size, attributes.age, attributes.lifetime, Size_b);\n\t\t\t\tColorOverLife_733E3(attributes.age,
       attributes.lifetime,  /*inout */attributes.color,  /*inout */attributes.alpha,
-      gradient_b);\n\t\t\t\t\n\r\n\t\t\t\t\r\n\t\t\t#if !HAS_STRIPS\r\n\t\t\t\tif
+      gradient_c);\n\t\t\t\t\n\r\n\t\t\t\t\r\n\t\t\t#if !HAS_STRIPS\r\n\t\t\t\tif
       (!attributes.alive)\r\n\t\t\t\t\treturn o;\r\n\t\t\t#endif\r\n\t\t\t\t\r\n\t\t\t#if
       VFX_PRIMITIVE_QUAD\r\n\t\t\t\r\n\t\t\t#if HAS_STRIPS\r\n\t\t\t#if VFX_STRIPS_UV_STRECHED\r\n\t\t\t\to.VFX_VARYING_UV.x
       = (float)(currentIndex) / (stripData.nextIndex - 1);\r\n\t\t\t#else\r\n\t\t\t\to.VFX_VARYING_UV.x
@@ -1244,13 +1249,13 @@ VisualEffectResource:
         data[0]: -1
         data[1]: -1
         data[2]: -1
-        data[3]: 1
+        data[3]: 3
       - op: 1
-        valueIndex: 6
+        valueIndex: 8
         data[0]: -1
         data[1]: -1
         data[2]: -1
-        data[3]: 3
+        data[3]: 1
       - op: 1
         valueIndex: 9
         data[0]: -1
@@ -1311,50 +1316,56 @@ VisualEffectResource:
         data[1]: -1
         data[2]: -1
         data[3]: 1
-      - op: 57
-        valueIndex: 29
-        data[0]: 15
-        data[1]: -1
-        data[2]: -1
-        data[3]: 0
       - op: 56
-        valueIndex: 30
+        valueIndex: 29
         data[0]: 14
         data[1]: -1
         data[2]: -1
         data[3]: 0
-      - op: 31
+      - op: 57
+        valueIndex: 33
+        data[0]: 15
+        data[1]: -1
+        data[2]: -1
+        data[3]: 0
+      - op: 1
         valueIndex: 34
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 3
+      - op: 31
+        valueIndex: 37
         data[0]: 16
         data[1]: 13
         data[2]: -1
         data[3]: 1
       - op: 1
-        valueIndex: 35
+        valueIndex: 38
         data[0]: -1
         data[1]: -1
         data[2]: -1
         data[3]: 1
-      - op: 1
-        valueIndex: 36
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 3
       - op: 1
         valueIndex: 39
         data[0]: -1
         data[1]: -1
         data[2]: -1
         data[3]: 3
-      - op: 6
+      - op: 1
         valueIndex: 42
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 3
+      - op: 6
+        valueIndex: 45
         data[0]: -1
         data[1]: -1
         data[2]: -1
         data[3]: -1
       - op: 1
-        valueIndex: 43
+        valueIndex: 46
         data[0]: -1
         data[1]: -1
         data[2]: -1
@@ -1369,7 +1380,7 @@ VisualEffectResource:
           m_Value: 4
         - m_ExpressionIndex: 4
           m_Value: 3
-        - m_ExpressionIndex: 5
+        - m_ExpressionIndex: 6
           m_Value: 2
         - m_ExpressionIndex: 10
           m_Value: 1
@@ -1377,16 +1388,16 @@ VisualEffectResource:
           m_Value: 0
         - m_ExpressionIndex: 16
           m_Value: 0
-        - m_ExpressionIndex: 20
+        - m_ExpressionIndex: 21
           m_Value: 0.00000001
       m_Vector2f:
         m_Array: []
       m_Vector3f:
         m_Array:
-        - m_ExpressionIndex: 6
-          m_Value: {x: -0.5, y: 0.05, z: 0.7}
-        - m_ExpressionIndex: 7
+        - m_ExpressionIndex: 5
           m_Value: {x: -1, y: 0, z: 0}
+        - m_ExpressionIndex: 7
+          m_Value: {x: -0.5, y: 0.05, z: 0.7}
         - m_ExpressionIndex: 8
           m_Value: {x: -0.5, y: 0.05, z: -0.7}
         - m_ExpressionIndex: 9
@@ -1395,9 +1406,11 @@ VisualEffectResource:
           m_Value: {x: 0.5, y: 0.05, z: -0.7}
         - m_ExpressionIndex: 12
           m_Value: {x: 0.5, y: 0.05, z: 0.7}
-        - m_ExpressionIndex: 21
-          m_Value: {x: 2, y: 3, z: 2}
+        - m_ExpressionIndex: 19
+          m_Value: {x: 0, y: 0, z: 1}
         - m_ExpressionIndex: 22
+          m_Value: {x: 2, y: 3, z: 2}
+        - m_ExpressionIndex: 23
           m_Value: {x: 0, y: 1, z: 0}
       m_Vector4f:
         m_Array: []
@@ -1470,7 +1483,7 @@ VisualEffectResource:
             m_NumAlphaKeys: 4
       m_NamedObject:
         m_Array:
-        - m_ExpressionIndex: 24
+        - m_ExpressionIndex: 25
           m_Value: {fileID: 2800000, guid: 5c9ca75968fc34355909c85a7ba64a2a, type: 3}
       m_Bool:
         m_Array: []
@@ -1598,7 +1611,7 @@ VisualEffectResource:
       temporaryBuffers: []
       values:
       - nameId: Rate
-        index: 19
+        index: 20
       params: []
       processor: {fileID: 0}
       shaderSourceIndex: -1
@@ -1619,9 +1632,9 @@ VisualEffectResource:
       index: 1
     values:
     - nameId: bounds_center
-      index: 22
+      index: 23
     - nameId: bounds_size
-      index: 21
+      index: 22
     tasks:
     - type: 536870912
       buffers:
@@ -1639,9 +1652,9 @@ VisualEffectResource:
         index: 2
       params:
       - nameId: bounds_center
-        index: 22
+        index: 23
       - nameId: bounds_size
-        index: 21
+        index: 22
       processor: {fileID: 0}
       shaderSourceIndex: 0
     - type: 805306368
@@ -1653,7 +1666,7 @@ VisualEffectResource:
       temporaryBuffers: []
       values:
       - nameId: deltaTime_a
-        index: 23
+        index: 24
       params: []
       processor: {fileID: 0}
       shaderSourceIndex: 1
@@ -1663,12 +1676,12 @@ VisualEffectResource:
         index: 0
       temporaryBuffers: []
       values:
-      - nameId: Size_a
-        index: 18
-      - nameId: gradient_b
+      - nameId: Size_b
         index: 17
+      - nameId: gradient_c
+        index: 18
       - nameId: mainTexture
-        index: 24
+        index: 25
       params:
       - nameId: sortPriority
         index: 0
