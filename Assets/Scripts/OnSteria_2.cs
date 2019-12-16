@@ -16,6 +16,7 @@ public class OnSteria_2 : MonoBehaviour
         isOnSteria = false;
         SetVFXParameter(0,0);
         SetVFXParameter(1,0);
+        SetVFXParameter(2,0);
     }
 
     void Update()
@@ -26,6 +27,7 @@ public class OnSteria_2 : MonoBehaviour
             SetSpriteAlpha(0,0);
             SetSpriteAlpha(1,0);
             SetVFXParameter(0,0);
+            SetVFXParameter(2,0);
         }
         else
         {
@@ -34,6 +36,7 @@ public class OnSteria_2 : MonoBehaviour
             pixelizeAnimation(time);
             pixelartAnimation(time);
             detectAnimation(time);
+            completeAnimation(time);
         }
     }
     void textAnimation(float time)
@@ -71,6 +74,19 @@ public class OnSteria_2 : MonoBehaviour
         {
             SetVFXParameter(1,time);
         }
+    }
+
+    void completeAnimation(float time)
+    {
+        if(time > 4 && time < 5)
+        {
+            SetVFXParameter(2,5-time);
+        }
+        else if(time > 5)
+        {
+            SetVFXParameter(2,0);
+        }
+
     }
     void pixelartFadeIn(int index)
     {
