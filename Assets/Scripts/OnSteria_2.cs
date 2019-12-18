@@ -27,7 +27,7 @@ public class OnSteria_2 : MonoBehaviour
             SetSpriteAlpha(0,0);
             SetSpriteAlpha(1,0);
             SetVFXParameter(0,0);
-            SetVFXParameter(2,0);
+            SetVFXParameter(2,100);
         }
         else
         {
@@ -57,8 +57,17 @@ public class OnSteria_2 : MonoBehaviour
     }
     void pixelizeAnimation(float time)
     {
-        if(time < 5){
+        if(time < 4)
+        {
             SetVFXParameter(0,time);
+        }
+        else if(time < 5)
+        {
+            float alpha = 4f - (time - 4f)*4;
+            SetVFXParameter(0,alpha);
+        }
+        else{
+            SetVFXParameter(0,0);
         }
     }
     void pixelartAnimation(float time)
@@ -78,11 +87,11 @@ public class OnSteria_2 : MonoBehaviour
 
     void completeAnimation(float time)
     {
-        if(time > 4 && time < 5)
+        if(time < 4)
         {
-            SetVFXParameter(2,5-time);
+            SetVFXParameter(2,100);
         }
-        else if(time > 5)
+        else
         {
             SetVFXParameter(2,0);
         }
