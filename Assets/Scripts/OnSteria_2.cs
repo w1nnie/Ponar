@@ -16,7 +16,7 @@ public class OnSteria_2 : MonoBehaviour
         isOnSteria = false;
         SetVFXParameter(0,0);
         SetVFXParameter(1,0);
-        SetVFXParameter(2,0);
+        SetVFXParameter(2,100);
     }
 
     void Update()
@@ -38,19 +38,24 @@ public class OnSteria_2 : MonoBehaviour
             detectAnimation(time);
             completeAnimation(time);
         }
+        if(time < 3.5f)
+        {
+            VisualEffect vfx = GetComponentsInChildren<VisualEffect>()[2];
+            vfx.Play();
+        }
     }
     void textAnimation(float time)
     {
-        if(time < 2.8)
+        if(time < 3)
         {
-            float f = Mathf.Sin((float)(2 * Mathf.PI * time / (2.8 * 3) * 4));
+            float f = Mathf.Sin((float)(2 * Mathf.PI * time / (3 * 3) * 4));
             SetSpriteAlpha(1, Mathf.Abs(f));
         }
-        else if(time > 2.8 && time < 3)
+        else if(time > 3 && time < 3.5)
         {
             SetSpriteAlpha(1,1);
         }
-        else if(time > 3)
+        else if(time > 3.5)
         {
             SetSpriteAlpha(1,0);
         }
@@ -67,7 +72,7 @@ public class OnSteria_2 : MonoBehaviour
             SetVFXParameter(0,alpha);
         }
         else{
-            SetVFXParameter(0,0);
+            SetVFXParameter(0,-1);
         }
     }
     void pixelartAnimation(float time)
@@ -79,7 +84,7 @@ public class OnSteria_2 : MonoBehaviour
     }
     void detectAnimation(float time)
     {
-        if(time < 5)
+        if(time < 4.7f)
         {
             SetVFXParameter(1,time);
         }
